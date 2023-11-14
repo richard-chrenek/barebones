@@ -1,0 +1,107 @@
+.message-container {
+  display flex
+  justify-content center
+  align-items center
+  min-height 100vh
+
+  .message {
+    display flex
+    flex-direction column
+    text-align center
+
+    @media (min-width 768px) {
+      flex-direction row
+      text-align unset
+    }
+
+    .debug-info {
+      text-align left
+    }
+
+    .icon {
+      position relative
+      filter drop-shadow(3px 3px 2px rgba(0, 0, 0, .2))
+      margin-right 2rem
+
+      .ghost {
+        left 0
+        animation float 5s ease-in-out infinite
+      }
+    }
+
+    h1 {
+      font-size 2.5rem
+      margin-bottom .75rem
+    }
+
+    span {
+      font-weight 200
+      font-size 1.75rem
+    }
+  }
+
+  @media(prefers-color-scheme dark) {
+    .message {
+      .icon {
+        filter drop-shadow(3px 3px 2px rgba(255, 255, 255, .2))
+      }
+    }
+  }
+}
+
+@keyframes float {
+  0% {
+    transform translateY(0)
+  }
+  50% {
+    transform translateY(-10px)
+  }
+  100% {
+    transform translateY(0)
+  }
+}
+
+.collapsible-section {
+  margin-top 1rem
+
+  .heading {
+    display inline-block
+
+    label {
+      display flex
+      gap .25rem
+      align-items center
+      cursor pointer
+
+      p {
+        margin 0
+        font-size 1.5rem
+        font-weight bold
+      }
+
+      .arrow {
+        transition .25s transform ease-in
+
+        @media(prefers-color-scheme dark) {
+          filter invert(1)
+        }
+      }
+    }
+
+    input {
+      display none
+
+      &:checked {
+        + label {
+          .arrow {
+            transform rotate(180deg)
+          }
+        }
+      }
+    }
+  }
+
+  .collapsible-message {
+    margin-top 1rem
+  }
+}

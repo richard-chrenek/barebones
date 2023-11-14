@@ -1,0 +1,24 @@
+{% macro section(heading, message, class = '') %}
+    {% if class is empty %}
+        {% set class="now"|date('Uv') %}
+    {% endif %}
+
+    <div class="collapsible-section {{ class }}">
+        <div class="heading">
+            <input id="toggle_{{ class }}_input" type="checkbox">
+            <label for="toggle_{{ class }}_input">
+                <p>{{ heading }}</p>
+                <img src="/images/chevron_down.svg" alt="{{ 'Collapse/Expand'|trans }}" class="arrow" width="24" height="24">
+            </label>
+        </div>
+
+        <div class="collapsible-message">
+            {{ message|raw }}
+        </div>
+    </div>
+    <script>
+        window.addEventListener('load', function () {
+            setCollapsible('.collapsible-section.{{ class }}');
+        })
+    </script>
+{% endmacro %}

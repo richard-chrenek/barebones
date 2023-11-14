@@ -1,0 +1,31 @@
+<?php
+
+use Barebones\App\Config;
+
+// Instruct search engines to not index the page during the maintenance, and revisit it after 30 minutes
+header('HTTP/1.1 503 Service Temporarily Unavailable');
+header('Status: 503 Service Temporarily Unavailable');
+header('Retry-After: 1800'); ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?= Config::APP_NAME . ' | ' . _('Maintenance mode') ?></title>
+    <style>
+        :root{font-size:62.5%}@media (min-width:768px){:root{font-size:83.33%}}*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{margin:0;padding:2rem;display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:100vh;background:linear-gradient(to right bottom,#efefef,#cfcfcf);font-family:Roboto,sans-serif;color:#121212}.maintenance{display:flex;flex-direction:column;align-items:center;text-align:center}@media (min-width:768px){.maintenance{flex-direction:row;text-align:unset}}.maintenance .icon{position:relative;filter:drop-shadow(3px 3px 2px rgba(0, 0, 0, .2))}.maintenance .icon .broom{position:relative;bottom:1.5rem;left:1.5rem;margin-right:2rem;transform:rotateY(-15deg);animation:sweep 1.5s infinite cubic-bezier(.4,0,1,1);will-change:transform}.maintenance .icon .cobweb{position:absolute;left:0;z-index:-1;transform:rotateZ(-15deg)}h1{font-size:2.5rem;margin-bottom:.75rem}span{font-weight:200;font-size:1.75rem}@keyframes sweep{0%{transform:rotateZ(-15deg)}50%{transform:rotateZ(15deg)}80%{transform:rotateZ(-15deg)}100%{transform:rotateZ(-15deg)}}@media (prefers-color-scheme:dark){body{background:linear-gradient(to right bottom,#101010,#313131);color:#ededed}.maintenance .icon{filter:drop-shadow(3px 3px 2px rgba(255, 255, 255, .2))}}
+    </style>
+</head>
+
+<body>
+<div class="maintenance">
+    <div class="icon">
+        <img class="broom" src="./images/broom.svg" width="100" alt="<?= _('Maintenance mode') ?>">
+        <img class="cobweb" src="./images/cobweb.svg" width="100" alt="<?= _('Maintenance mode') ?>">
+    </div>
+    <div>
+        <h1><?= _('We are improving ') . _(Config::APP_NAME) ?></h1>
+        <span><?= _('If there are no "unexpected" problems, we will be back in a few moments 😉') ?></span>
+    </div>
+</div>
+</body>
+</html>

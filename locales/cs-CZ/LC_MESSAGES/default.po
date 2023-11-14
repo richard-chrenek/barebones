@@ -1,0 +1,884 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-12-30 19:53+0100\n"
+"PO-Revision-Date: 2019-12-30 19:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../../../src\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/AdminController.php:38
+msgid "Nemáte oprávnenie na zobrazenie tejto stránky!"
+msgstr "Nemáte oprávnění na zobrazení této stránky!"
+
+#: Controller/AdminController.php:84
+#, php-format
+msgid "Pridávanie odpovedí ku komentáru s ID %d bolo %s."
+msgstr "Přidávání odpovědí ke komentáři s ID %d bylo %s."
+
+#: Controller/AdminController.php:85
+msgid "zakázané"
+msgstr "zakázáno"
+
+#: Controller/AdminController.php:85
+msgid "povolené"
+msgstr "povoleno"
+
+#: Controller/AdminController.php:90
+#, php-format
+msgid "Nepodarilo sa %s pridávanie odpovedí ku komentáru."
+msgstr "Nepodařilo se %s přidávání odpovědí ke komentáři."
+
+#: Controller/AdminController.php:91
+msgid "zakázať"
+msgstr "zakázat"
+
+#: Controller/AdminController.php:91
+msgid "povoliť"
+msgstr "povolit"
+
+#: Controller/AdminController.php:133
+#, php-format
+msgid "%s %d bol %s"
+msgstr "%s %d byl %s"
+
+#: Controller/AdminController.php:133
+msgid "Obsah komentára s ID"
+msgstr "Obsah komentáře s ID"
+
+#: Controller/AdminController.php:133
+msgid "Komentár s ID "
+msgstr "Komentář s ID "
+
+#: Controller/AdminController.php:135
+msgid "skrytý."
+msgstr "skrytý."
+
+#: Controller/AdminController.php:135
+msgid "zverejnený."
+msgstr "zveřejněn."
+
+#: Controller/AdminController.php:140
+msgid "skryť"
+msgstr "skrýt"
+
+#: Controller/AdminController.php:140
+msgid "zverejniť"
+msgstr "zveřejnit"
+
+#: Controller/AdminController.php:141
+msgid "obsah komentára"
+msgstr "obsah komentáře"
+
+#: Controller/AdminController.php:141
+msgid "komentár"
+msgstr "komentář"
+
+#: Controller/AdminController.php:154
+msgid "Nemáte dostatočné práva na zakázanie prístupu!"
+msgstr "Nemáte dostatečná práva na zakázání přístupu!"
+
+#: Controller/AdminController.php:162
+msgid "Nemôžete zakázať prispievanie sám sebe!"
+msgstr "Nemůžete zakázat přispívání sám sobě!"
+
+#: Controller/AdminController.php:177
+msgid "Autor príspevku bol úspešne odbanovaný."
+msgstr "Autor příspěvku byl úspěšně odbanován."
+
+#: Controller/AdminController.php:179
+msgid "Nepodarilo sa odbanovať autora príspevku."
+msgstr "Nepodařilo se odbanovat autora příspěvku."
+
+#: Controller/AdminController.php:190
+msgid "Dátum expirácie banu nie je v správnom formáte!"
+msgstr "Datum expirace banu není ve správném formátu!"
+
+#: Controller/AdminController.php:197
+msgid "Nepodarilo sa vytvoriť časový údaj pre záznam banu!"
+msgstr "Nepodařilo se vytvořit časový údaj pro záznam banu!"
+
+#: Controller/AdminController.php:216
+msgid "Autor príspevku bol úspešne zabanovaný."
+msgstr "Autor příspěvku byl úspěšně zabanován."
+
+#: Controller/AdminController.php:218
+msgid "Nepodarilo sa zabanovať autora príspevku."
+msgstr "Nepodařilo se zabanovat autora příspěvku."
+
+#: Controller/AdminController.php:230
+msgid "Nemáte dostatočné práva na editovanie príspevku!"
+msgstr "Nemáte dostatečná práva na editování příspěvku!"
+
+#: Controller/AdminController.php:241
+msgid "Neplatné ID príspevku!"
+msgstr "Neplatné ID příspěvku!"
+
+#: Controller/AdminController.php:252
+#, php-format
+msgid "Nepodarilo sa načítať komentár s ID %d!"
+msgstr "Nepodařilo se načíst komentář s ID %d!"
+
+#: Controller/AdminController.php:302
+msgid "Nepodarilo sa editovať príspevok."
+msgstr "Nepodařilo se editovat příspěvek."
+
+#: Controller/AdminController.php:305
+msgid "Príspevok bol úspešne editovaný"
+msgstr "Příspěvek byl úspěšně editován"
+
+#: Controller/AdminController.php:313
+msgid "Zadajte platné ID príspevku, do ktorého chcete pridať aktuálne vlákno!"
+msgstr "Zadejte platné ID příspěvku, do kterého chcete přidat aktuální vlákno!"
+
+#: Controller/AdminController.php:314
+msgid ""
+", ale nebol spojený kvôli neplatnému ID vlákna, do ktorého mal byť pripojený."
+msgstr ""
+", ale nebyl spojen kvůli neplatnému ID vlákna, do kterého měl být připojen."
+
+#: Controller/AdminController.php:322
+msgid "Nepodarilo sa spojiť príspevky"
+msgstr "Nepodařilo se spojit příspěvky"
+
+#: Controller/AdminController.php:323
+msgid ", ale nepodarilo sa ho spojiť s ďalším vláknom."
+msgstr ", ale nepodařilo se ho spojit s dalším vláknem."
+
+#: Controller/AdminController.php:331
+msgid "Vlákna s príspevkami boli úspešne spojené."
+msgstr "Vlákna s příspěvky byly úspěšně spojeny."
+
+#: Controller/AdminController.php:332
+msgid " a spojený s ďalším vláknom."
+msgstr " a spojený s dalším vláknem."
+
+#: Controller/AdminController.php:352 Controller/IndexController.php:188
+#: Controller/LoginController.php:213 Controller/RegisterController.php:204
+msgid "Overenie proti robotom nebolo úspešné! 🤖"
+msgstr "Ověření proti robotům nebylo úspěšné! 🤖"
+
+#: Controller/AdminController.php:358 Controller/IndexController.php:442
+msgid "Pole Meno nemôže ostať prázdne!"
+msgstr "Pole Jméno nemůže zůstat prázdné!"
+
+#: Controller/AdminController.php:363 Controller/IndexController.php:211
+#: Controller/RegisterController.php:139
+msgid "Prosím zadajte platný e-mail."
+msgstr "Prosím zadejte platný e-mail."
+
+#: Controller/AdminController.php:368 Controller/IndexController.php:223
+msgid "Text odkazu nesmie byť prázdny!"
+msgstr "Vzkaz nesmí být prázdný!"
+
+#: Controller/IndexController.php:197 Controller/LoginController.php:315
+msgid "Používateľské meno a heslo sa nezhodujú."
+msgstr "Uživatelské jméno a heslo se neshodují."
+
+#: Controller/IndexController.php:199
+msgid "Z Vami zadanej prezývky nie je možné prispievať anonymne."
+msgstr "Z Vámi zadané přezdívky nelze přispívat anonymně."
+
+#: Controller/IndexController.php:204
+msgid "Použite inú prezývku, alebo sa prihláste."
+msgstr "Použijte jinou přezdívku nebo se přihlaste."
+
+#: Controller/IndexController.php:221
+msgid ""
+"Boli ste úspešne prihlásený, príspevok však nebol odoslaný kvôli prázdnemu "
+"textu odkazu."
+msgstr ""
+"Byli jste úspěšně přihlášeni, příspěvek však nebyl odeslán kvůli prázdnému "
+"textu odkazu."
+
+#: Controller/IndexController.php:281
+msgid ""
+"Boli ste úspešne prihlásený, Váš príspevok však nebol odoslaný z dôvodu "
+"duplicitného obsahu."
+msgstr ""
+"Byli jste úspěšně přihlášeni, Váš příspěvek však nebyl odeslán z důvodu "
+"duplicitního obsahu."
+
+#: Controller/IndexController.php:283
+msgid "Nie je možné odoslať duplicitný príspevok!"
+msgstr "Není možné odeslat duplicitní příspěvek!"
+
+#: Controller/IndexController.php:331
+msgid "Nepodarilo sa načítať nadradený komentár."
+msgstr "Nepodařilo se načíst nadřazený komentář."
+
+#: Controller/IndexController.php:336
+msgid "Pridávanie odpovedí k tomuto komentáru bolo zakázané."
+msgstr "Přidávání odpovědí k tomuto komentáři bylo zakázáno."
+
+#: Controller/IndexController.php:354
+msgid "Dôvod udelenia banu:"
+msgstr "Důvod udělení banu:"
+
+#: Controller/IndexController.php:355
+msgid "Dátum skončenia platnosti banu:"
+msgstr "Datum skončení platnosti banu:"
+
+#: Controller/IndexController.php:362 Controller/IndexController.php:373
+msgid "Pridávanie komentárov Vám bolo zakázané."
+msgstr "Přidávání komentářů Vám bylo zakázáno."
+
+#: Controller/IndexController.php:369
+msgid ""
+"Boli ste úspešne prihlásený, príspevok však nebol odoslaný kvôli platnému "
+"banu."
+msgstr ""
+"Byli jste úspěšně přihlášeni, příspěvek však nebyl odeslán kvůli platnému "
+"banu."
+
+#: Controller/IndexController.php:426
+msgid "Boli ste úspešne prihlásený, a váš príspevok bol zverejnený."
+msgstr "Byli jste úspěšně přihlášeni a váš příspěvek byl zveřejněn."
+
+#: Controller/IndexController.php:449
+msgid ""
+"Zvolená prezývka obsahuje nepovolené znaky. Povolené sú malé a veľké písmená "
+"SK/CZ abecedy, čísla, medzera a znaky . - _"
+msgstr ""
+"Zvolená přezdívka obsahuje nepovolené znaky. Povolena jsou malá a velká "
+"písmena CZ/SK abecedy, čísla, mezera a znaky . - _"
+
+#: Controller/IndexController.php:456
+msgid "Zvolená prezývka obsahuje zakázaný výraz. Prosím, použite inú prezývku."
+msgstr ""
+"Zvolená přezdívka obsahuje zakázaný výraz. Prosím, použijte jinou přezdívku."
+
+#: Controller/IndexController.php:481
+#, php-format
+msgid "Váš príspevok obsahuje viac ako %d smajlíkov."
+msgstr "Váš příspěvek obsahuje více než %d smajlíků."
+
+#: Controller/IndexController.php:482
+msgid "Prosím odstránte nadbytočné smajlíky a opätovne odošlite komentár."
+msgstr "Prosím odstraňte nadbytečné smajlíky a opětovně odešlete komentář."
+
+#: Controller/IndexController.php:489
+msgid "Nie je možné odoslať príspevok obsahujúci iba smajlíky!"
+msgstr "Není možné odeslat příspěvek obsahující pouze smajlíky!"
+
+#: Controller/LoginController.php:52
+msgid "Úspešne ste sa prihlásili."
+msgstr "Úspěšně jste se přihlásili."
+
+#: Controller/LoginController.php:63
+msgid "Boli ste úspešne odhlásený."
+msgstr "Byli jste úspěšně odhlášeni."
+
+#: Controller/LoginController.php:87 Controller/LoginController.php:341
+msgid ""
+"Nepodarilo sa vytvoriť požiadavku na zmenu hesla. Skúste to prosím znova, "
+"alebo kontaktujte administrátorov."
+msgstr ""
+"Nepodařilo se vytvořit požadavek na změnu hesla. Zkuste to prosím znovu nebo "
+"kontaktujte administrátory."
+
+#: Controller/LoginController.php:97
+msgid "Na Váš e-mail bola odoslaná správa s pokynmi na zmenu hesla."
+msgstr "Na Váš e-mail byla odeslána zpráva s pokyny na změnu hesla."
+
+#: Controller/LoginController.php:110 Controller/LoginController.php:401
+msgid "Nesprávny alebo exspirovaný overovací kód!"
+msgstr "Nesprávný nebo expirovaný ověřovací kód!"
+
+#: Controller/LoginController.php:114
+msgid ""
+"Platnosť kódu na obnovenie hesla vypršala. Skúste opätovne požiadať o jeho "
+"vygenerovanie."
+msgstr ""
+"Platnost kódu na obnovení hesla vypršela. Zkuste znovu požádat o jeho "
+"vygenerování."
+
+#: Controller/LoginController.php:122
+msgid ""
+"Nepodarilo sa obnoviť heslo pre Váš účet.\n"
+"                Skúste obnoviť stránku, alebo opätovne požiadať o zmenu "
+"hesla. Ak problém pretrváva, kontaktujte prosím administrátorov."
+msgstr ""
+"Nepodařilo se obnovit heslo pro Váš účet. Zkuste obnovit stránku nebo znovu "
+"požádat o změnu hesla. Pokud problém přetrvává, kontaktujte prosím "
+"administrátory."
+
+#: Controller/LoginController.php:131
+msgid "Vaše heslo bolo úspešne obnovené, môžete sa prihlásiť."
+msgstr "Heslo bylo úspěšně obnoveno, můžete se přihlásit."
+
+#: Controller/LoginController.php:156 Controller/RegisterController.php:112
+msgid "Prezývka nemôže ostať prázdna!"
+msgstr "Přezdívka nemůže zůstat prázdná!"
+
+#: Controller/LoginController.php:173
+msgid "E-mail nemôže byť prázdny!"
+msgstr "E-mail nemůže být prázdný!"
+
+#: Controller/LoginController.php:177
+msgid "Zadaný e-mail je v nesprávnom formáte."
+msgstr "Zadaný e-mail je ve špatném formátu."
+
+#: Controller/LoginController.php:193
+#, php-format
+msgid "Používateľ s prezývkou %s neexistuje."
+msgstr "Uživatel s přezdívkou %s neexistuje."
+
+#: Controller/LoginController.php:197
+msgid "Nesprávna kombinácia používateľského mena a/alebo e-mailu."
+msgstr "Nesprávná kombinace uživatelského jména a/nebo e-mailu."
+
+#: Controller/LoginController.php:244 Controller/LoginController.php:271
+#: Controller/RegisterController.php:179 View/index.html.twig:3
+#: View/index.html.twig:13
+msgid "Návštevná kniha GTA.cz"
+msgstr "Návštěvní kniha GTA.cz"
+
+#: Controller/LoginController.php:246
+msgid "Obnovenie hesla"
+msgstr "Obnovení hesla"
+
+#: Controller/LoginController.php:256 Controller/LoginController.php:283
+#: Controller/RegisterController.php:190
+#, php-format
+msgid "Nepodarilo sa odoslať overovací e-mail! %s"
+msgstr "Nepodařilo se odeslat ověřovací e-mail! %s"
+
+#: Controller/LoginController.php:298
+msgid "Zadaný e-mail nie je registrovaný ku žiadnemu kontu."
+msgstr "Zadaný e-mail není registrován k žádnému kontu."
+
+#: Controller/LoginController.php:304
+msgid "Zadané používateľské meno nie je registrované ku žiadnemu kontu."
+msgstr "Zadané uživatelské jméno není registrováno k žádnému kontu."
+
+#: Controller/LoginController.php:309
+msgid "Prosím zadajte platné používateľské meno alebo e-mail."
+msgstr "Prosím zadejte platné uživatelské jméno nebo e-mail."
+
+#: Controller/LoginController.php:319
+msgid "Heslo nesmie ostať prázdne!"
+msgstr "Heslo nesmí zůstat prázdné!"
+
+#: Controller/LoginController.php:348 Controller/LoginController.php:351
+msgid ""
+"Nepodarilo sa odoslať overovací e-mail. Skúste to prosím znova, alebo "
+"kontaktujte administrátorov."
+msgstr ""
+"Nepodařilo se odeslat ověřovací e-mail. Zkuste to prosím znovu nebo "
+"kontaktujte administrátory."
+
+#: Controller/LoginController.php:354
+msgid ""
+"Na váš e-mail bol odoslaný potvrdzovací link pre aktiváciu nového hesla."
+msgstr "Na váš e-mail byl odeslán potvrzovací link pro aktivaci nového hesla."
+
+#: Controller/LoginController.php:363
+msgid "Aktuálne heslo nemôže ostať prázdne!"
+msgstr "Aktuální heslo nemůže zůstat prázdné!"
+
+#: Controller/LoginController.php:368
+msgid "Nové heslo nemôže ostať prázdne!"
+msgstr "Nové heslo nemůže zůstat prázdné!"
+
+#: Controller/LoginController.php:373
+msgid "Nové heslo a kontrola nového hesla nie sú identické!"
+msgstr "Nové heslo a kontrola nového hesla nejsou identické!"
+
+#: Controller/LoginController.php:380
+msgid "Nové heslo je rovnaké, ako aktuálne heslo!"
+msgstr "Nové heslo je stejné jako aktuální heslo!"
+
+#: Controller/LoginController.php:385
+msgid "Aktuálne heslo nie je správne!"
+msgstr "Aktuální heslo není správné!"
+
+#: Controller/LoginController.php:405
+msgid ""
+"Platnosť kódu na zmenu hesla vypršala. Prihláste sa s pôvodným heslom, a "
+"skúste ho opätovne zmeniť."
+msgstr ""
+"Platnost kódu na změnu hesla vypršela. Přihlaste se s původním heslem a "
+"zkuste ho znovu změnit."
+
+#: Controller/LoginController.php:413
+msgid ""
+"Nepodarilo sa zmeniť heslo pre Váš účet.\n"
+"                Skúste obnoviť stránku, alebo opätovnú zmenu hesla v "
+"nastaveniach účtu. Ak problém pretrváva, kontaktujte prosím administrátorov."
+msgstr ""
+"Nepodařilo se změnit heslo pro Váš účet. Zkuste obnovit stránku, nebo "
+"opětovně změnit heslo v nastavení účtu. Pokud problém přetrvává, kontaktujte "
+"prosím administrátory."
+
+#: Controller/LoginController.php:428
+msgid "Vaše heslo bolo úspešne zmenené, môžete sa prihlásiť."
+msgstr "Vaše heslo bylo úspěšně změněno, můžete se přihlásit."
+
+#: Controller/LoginController.php:434
+msgid "Vaše heslo bolo úspešne zmenené."
+msgstr "Heslo bylo úspěšně změněno."
+
+#: Controller/RegisterController.php:51
+msgid ""
+"Registrácia bola úspešne dokončená! Na Vašu adresu bol odoslaný potvrdzovací "
+"e-mail."
+msgstr ""
+"Registrace byla úspěšně dokončena! Na Vaši adresu byl odeslán potvrzovací e-"
+"mail."
+
+#: Controller/RegisterController.php:69
+msgid "Nesprávny overovací kód, alebo ste už boli úspešne overený!"
+msgstr "Nesprávný ověřovací kód nebo jste již byl úspěšně ověřen!"
+
+#: Controller/RegisterController.php:74
+msgid ""
+"Platnosť Vášho overovacieho kódu vypršala. Prosím, zaregistrujte sa znova."
+msgstr ""
+"Platnost Vašeho ověřovacího kódu vypršela. Prosím, zaregistrujte se znovu."
+
+#: Controller/RegisterController.php:83
+msgid "Modifikovaný záznam! Prosím, zaregistrujte sa znova."
+msgstr "Modifikovaný záznam! Prosím, zaregistrujte se znovu."
+
+#: Controller/RegisterController.php:89
+msgid "Úspešne overený! Môžete sa prihlásiť."
+msgstr "Úspěšně ověřený! Můžete se přihlásit."
+
+#: Controller/RegisterController.php:116
+#, php-format
+msgid "Používateľ %s je už registrovaný. Použite prosím inú prezývku."
+msgstr "Uživatel %s je již registrován. Použijte prosím jinou přezdívku."
+
+#: Controller/RegisterController.php:133
+msgid "E-mail nemôže ostať prázdny!"
+msgstr "E-mail nemůže zůstat prázdný!"
+
+#: Controller/RegisterController.php:143
+msgid ""
+"Zadaný e-mail je priradený k existujúcemu kontu. Použite iný mail alebo sa "
+"prihláste."
+msgstr ""
+"Zadaný e-mail je přiřazen k existujícímu kontu. Použijte jiný mail nebo se "
+"přihlaste."
+
+#: Controller/RegisterController.php:158
+#, php-format
+msgid "%s nemôže ostať prázdne!"
+msgstr "%s nemůže zůstat prázdné!"
+
+#: Controller/RegisterController.php:159 View/index.html.twig:59
+#: View/login.html.twig:18 View/registration.html.twig:25
+msgid "Heslo"
+msgstr "Heslo"
+
+#: Controller/RegisterController.php:159
+msgid "Overenie hesla"
+msgstr "Ověření hesla"
+
+#: Controller/RegisterController.php:163
+msgid "Heslá sa nezhodujú!"
+msgstr "Hesla se neshodují!"
+
+#: Controller/RegisterController.php:181
+msgid "Registrácia úspešná!"
+msgstr "Registrace úspěšná!"
+
+#: View/account-settings.html.twig:5 View/layouts/base.html.twig:66
+msgid "Nastavenia účtu"
+msgstr "Nastavení účtu"
+
+#: View/account-settings.html.twig:6
+msgid "Nižšie môžete upraviť nastavenia vášho účtu a zmeniť niektoré údaje:"
+msgstr "Níže můžete upravit nastavení účtu a změnit některé údaje:"
+
+#: View/account-settings.html.twig:15
+msgid "Zmena hesla"
+msgstr "Změna hesla"
+
+#: View/account-settings.html.twig:18
+msgid "Aktuálne heslo"
+msgstr "Aktuální heslo"
+
+#: View/account-settings.html.twig:19
+msgid "Nové heslo"
+msgstr "Nové heslo"
+
+#: View/account-settings.html.twig:21 View/registration.html.twig:28
+msgid "Sila hesla:"
+msgstr "Síla hesla:"
+
+#: View/account-settings.html.twig:27
+msgid "Nové heslo (kontrola)"
+msgstr "Nové heslo (kontrola)"
+
+#: View/account-settings.html.twig:31
+msgid "Zmeniť heslo"
+msgstr "Změnit heslo"
+
+#: View/blocks/recaptcha-disclaimer.html.twig:3
+msgid "Stránka je chránená technológiou reCAPTCHA, a podlieha"
+msgstr "Stránka je chráněna technologií reCAPTCHA a podléhá"
+
+#: View/blocks/recaptcha-disclaimer.html.twig:4
+msgid "Zásadám ochrany osobných údajov"
+msgstr "Zásadám ochrany osobních údajů"
+
+#: View/blocks/recaptcha-disclaimer.html.twig:5
+msgid "Podmienkam používania služby"
+msgstr "Podmínkám používání služby"
+
+#: View/emails/password-change.html.twig:5
+#: View/emails/password-reset.html.twig:5
+msgid "Dobrý deň,"
+msgstr "Dobrý den,"
+
+#: View/emails/password-change.html.twig:7
+msgid ""
+"Požiadali ste o zmenu hesla. Aby ste sa mohli s novým heslom prihlásiť, je "
+"potrebné"
+msgstr ""
+"Požádali jste o změnu hesla. Abyste se mohli s novým heslem přihlásit, je "
+"třeba"
+
+#: View/emails/password-change.html.twig:8
+#: View/emails/password-reset.html.twig:7
+msgid "potvrdiť jeho zmenu"
+msgstr "potvrdit jeho změnu"
+
+#: View/emails/password-change.html.twig:8
+#: View/emails/password-reset.html.twig:7
+#: View/emails/registration-complete.html.twig:6
+msgid "najneskôr do"
+msgstr "nejpozději do"
+
+#: View/emails/password-change.html.twig:8
+#: View/emails/password-reset.html.twig:7
+#: View/emails/registration-complete.html.twig:6
+msgid "Môžete tak urobiť kliknutím na"
+msgstr "Můžete tak učinit kliknutím na"
+
+#: View/emails/password-change.html.twig:9
+#: View/emails/password-reset.html.twig:8
+msgid "tento link"
+msgstr "tento link"
+
+#: View/emails/password-change.html.twig:10
+#: View/emails/password-reset.html.twig:9
+#: View/emails/registration-complete.html.twig:8
+msgid ""
+"alebo skopírovaním adresy uvedenej nižšie, a jej načítaním v ľubovoľnom "
+"prehliadači."
+msgstr ""
+"nebo zkopírováním adresy uvedené níže a její načtením v libovolném "
+"prohlížeči."
+
+#: View/emails/password-change.html.twig:13
+#: View/emails/password-reset.html.twig:12
+#: View/emails/registration-complete.html.twig:11
+msgid "Aktivačný link:"
+msgstr "Aktivační link:"
+
+#: View/emails/password-change.html.twig:17
+#: View/emails/password-reset.html.twig:16
+msgid "Neodoslali ste požiadavku na obnovenie hesla?"
+msgstr "Neodeslali jste požadavek na obnovení hesla?"
+
+#: View/emails/password-change.html.twig:18
+#: View/emails/password-reset.html.twig:17
+msgid ""
+"V tom prípade sa nemusíte ničoho obávať. Do Vášho konta sa môžete naďalej "
+"prihlásiť s doterajším heslom."
+msgstr ""
+"V tom případě se nemusíte ničeho obávat. Do Vašeho konta se můžete nadále "
+"přihlásit s dosavadním heslem."
+
+#: View/emails/password-change.html.twig:22
+#: View/emails/password-reset.html.twig:21
+#: View/emails/registration-complete.html.twig:15
+msgid ""
+"Tento e-mail bol automaticky vygenerovaný, prosím, neodpovedajte naň. V "
+"prípade akýchkoľvek otázok sa môžete obrátiť\n"
+"    na adresu"
+msgstr ""
+"Tento e-mail byl automaticky vygenerován. Prosím neodpovídejte na něj. V "
+"případě jakýchkoliv dotazů se můžete obrátit\n"
+"    na adresu"
+
+#: View/emails/password-reset.html.twig:6
+msgid "Požiadali ste o obnovu hesla. Nové heslo pre Váš účet je:"
+msgstr "Požádali jste o obnovu hesla. Nové heslo pro Váš účet je:"
+
+#: View/emails/password-reset.html.twig:7
+msgid "Aby ste sa mohli s novým heslom prihlásiť, je potrebné"
+msgstr "Abyste se mohli s novým heslem přihlásit, je třeba"
+
+#: View/emails/registration-complete.html.twig:5
+msgid "Gratulujeme"
+msgstr "Gratulujeme"
+
+#: View/emails/registration-complete.html.twig:5
+msgid "ste úšpešne zaregistrovaný!"
+msgstr "jste úspěšně zaregistrován!"
+
+#: View/emails/registration-complete.html.twig:6
+msgid "potvrdiť Váš účet"
+msgstr "potvrdit Váš účet"
+
+#: View/error.html.twig:4
+msgid "Brutálna chyba!"
+msgstr "Brutální chyba!"
+
+#: View/error.html.twig:9
+msgid "Chyba"
+msgstr "Chyba"
+
+#: View/error.html.twig:10
+msgid "Je nám ľuto, stránku sa nepodarilo zobraziť."
+msgstr "Je nám líto, stránku se nepodařilo zobrazit."
+
+#: View/error.html.twig:25
+msgid "O 5 sekúnd budete presmerovaný na úvodnú stránku."
+msgstr "O 5 sekund budete přesměrován na úvodní stránku."
+
+#: View/forgot-password.html.twig:12 View/registration.html.twig:12
+msgid "Prezývka:"
+msgstr "Přezdívka:"
+
+#: View/forgot-password.html.twig:13 View/registration.html.twig:13
+msgid "Prezývka"
+msgstr "Přezdívka"
+
+#: View/forgot-password.html.twig:17 View/index.html.twig:63
+#: View/registration.html.twig:18
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: View/forgot-password.html.twig:18 View/registration.html.twig:21
+msgid "E-mail"
+msgstr "E-mail"
+
+#: View/forgot-password.html.twig:25
+msgid "Obnoviť heslo"
+msgstr "Obnovit heslo"
+
+#: View/index.html.twig:16
+msgid ""
+"Na otázky ohľadne inštalácie hry, HW požiadaviek,\n"
+"                        hrania samotnej hry, jej online verzie a pod. "
+"využívajte VÝHRADNE naše"
+msgstr ""
+"Na otázky ohledně instalace hry, HW požadavků, hraní samotné hry, její "
+"online verze apod. využívejte VÝHRADNĚ naše"
+
+#: View/index.html.twig:19
+msgid "GTA fórum"
+msgstr "GTA fórum"
+
+#: View/index.html.twig:23
+msgid ""
+"Každý používateľ návštevnej knihy, ktorý zverejní svoj príspevok, "
+"automaticky súhlasí s"
+msgstr ""
+"Každý uživatel návštěvní knihy, který zveřejní svůj příspěvek, automaticky "
+"souhlasí s"
+
+#: View/index.html.twig:25
+msgid "týmito pravidlami"
+msgstr "těmito pravidly"
+
+#: View/index.html.twig:26
+msgid ""
+"V prípade ich porušenia môže byť príspevok vymazaný, v horšom prípade Vám "
+"môže byť obmedzený\n"
+"                        prístup."
+msgstr ""
+"V případě jejich porušení může být příspěvek vymazán, v horším případě Vám "
+"může být omezen přístup."
+
+#: View/index.html.twig:39
+msgid "Meno:"
+msgstr "Jméno:"
+
+#: View/index.html.twig:44
+msgid "Meno"
+msgstr "Jméno"
+
+#: View/index.html.twig:55 View/login.html.twig:17
+#: View/registration.html.twig:24
+msgid "Heslo:"
+msgstr "Heslo:"
+
+#: View/index.html.twig:70
+msgid "E-mail (nepovinný)"
+msgstr "E-mail (nepovinný)"
+
+#: View/index.html.twig:74
+msgid "Odkaz:"
+msgstr "Vzkaz:"
+
+#: View/index.html.twig:76
+msgid "Odkaz"
+msgstr "Vzkaz"
+
+#: View/index.html.twig:128
+msgid "Odoslať formulár:"
+msgstr "Odeslat formulář:"
+
+#: View/index.html.twig:131
+msgid "Odoslať"
+msgstr "Odeslat"
+
+#: View/index.html.twig:150
+msgid "Na zobrazovanie grafických smajlíkov využívame knižnicu"
+msgstr "Na zobrazování grafických smajlíků využíváme knihovnu"
+
+#: View/index.html.twig:151
+msgid "poskytovanú pod licenciou"
+msgstr "poskytovanou pod licencí"
+
+#: View/layouts/base.html.twig:43
+msgid ""
+"Vás prehliadač nepodporuje najnovšie technológie používané touto stránkou. "
+"Niektoré jej časti sa preto\n"
+"                nemusia zobrazovať alebo správne fungovať."
+msgstr ""
+"Vás prohlížeč nepodporuje nejnovější technologie používané touto stránkou. "
+"Některé její části se proto nemusí zobrazovat nebo správně fungovat."
+
+#: View/layouts/base.html.twig:45
+msgid ""
+"Pre bezproblémové používanie Návštevnej knihy GTA.cz Vám odporúčame prechod "
+"na jeden z"
+msgstr ""
+"Pro bezproblémové používání Návštěvní knihy GTA.cz doporučujeme přechod na "
+"jeden z"
+
+#: View/layouts/base.html.twig:46
+msgid "aktuálnych prehliadačov"
+msgstr "aktuálních prohlížečů"
+
+#: View/layouts/base.html.twig:63
+msgid "Main page"
+msgstr "Hlavná stránka"
+
+#: View/layouts/base.html.twig:69
+msgid "Odhlásenie"
+msgstr "Odhlášení"
+
+#: View/layouts/base.html.twig:75
+msgid "Prihlásenie"
+msgstr "Přihlášení"
+
+#: View/layouts/base.html.twig:80
+msgid "Prejsť na GTA.cz"
+msgstr "Přejít na GTA.cz"
+
+#: View/login.html.twig:12
+msgid "Prezývka alebo e-mail:"
+msgstr "Přezdívka nebo e-mail:"
+
+#: View/login.html.twig:13
+msgid "Prezývka alebo e-mail"
+msgstr "Přezdívka nebo e-mail"
+
+#: View/login.html.twig:26
+msgid "Prihlásiť"
+msgstr "Přihlásit"
+
+#: View/login.html.twig:29
+msgid "Zabudli ste heslo?"
+msgstr "Zapomněli jste heslo?"
+
+#: View/macros/comment_macro.html.twig:31
+msgid "Odblokovať"
+msgstr "Odblokovat"
+
+#: View/macros/comment_macro.html.twig:31
+msgid "Zablokovať"
+msgstr "Zablokovat"
+
+#: View/macros/comment_macro.html.twig:31
+msgid "používateľa"
+msgstr "uživatele"
+
+#: View/macros/comment_macro.html.twig:42
+msgid "ID príspevku:"
+msgstr "ID příspěvku:"
+
+#: View/macros/comment_macro.html.twig:77
+msgid "K tomu príspevku nie je možné pridať ďalšiu odpoveď."
+msgstr "K tomu příspěvku není možné přidat další odpověď."
+
+#: View/macros/comment_macro.html.twig:78
+msgid "Zamknutý"
+msgstr "Zamčený"
+
+#: View/macros/comment_macro.html.twig:80
+msgid "Odpovedať"
+msgstr "Odpovědět"
+
+#: View/macros/comment_macro.html.twig:84
+msgid "Odomknúť"
+msgstr "Odemknout"
+
+#: View/macros/comment_macro.html.twig:84
+msgid "Zamknúť"
+msgstr "Zamknout"
+
+#: View/macros/comment_macro.html.twig:84
+#: View/macros/comment_macro.html.twig:97
+msgid "príspevok"
+msgstr "příspěvek"
+
+#: View/macros/comment_macro.html.twig:91
+msgid "Upraviť príspevok"
+msgstr "Upravit příspěvek"
+
+#: View/macros/comment_macro.html.twig:97
+msgid "Zobraziť"
+msgstr "Zobrazit"
+
+#: View/macros/comment_macro.html.twig:97
+msgid "Skryť"
+msgstr "Skrýt"
+
+#: View/macros/comment_macro.html.twig:106
+msgid "Príspevok bol skrytý z dôvodu porušenia pravidiel."
+msgstr "Příspěvek byl skrytý z důvodu porušení pravidel."
+
+#: View/macros/paginator_macro.html.twig:6
+msgid "Strana:"
+msgstr "Strana:"
+
+#: View/macros/paginator_macro.html.twig:32
+msgid "Ísť na:"
+msgstr "Jít na:"
+
+#: View/registration.html.twig:35
+msgid "Heslo (kontrola):"
+msgstr "Heslo (kontrola):"
+
+#: View/registration.html.twig:37
+msgid "Heslo (kontrola)"
+msgstr "Heslo (kontrola)"
+
+#: View/registration.html.twig:43
+msgid "Registrovať"
+msgstr "Registrovat"
+
+#~ msgid "Vylepšujeme pre Vás návštevnú knihu"
+#~ msgstr "Vylepšujeme pro Vás návštěvní knihu"
+
+#~ msgid "Ak nenastanú problémy, o chvíľu sme späť... 😉"
+#~ msgstr "Pokud nenastanou problémy, za okamžik jsme zpět... 😉"
+
+#~ msgid "Registrácia"
+#~ msgstr "Registrace"

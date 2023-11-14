@@ -1,0 +1,23 @@
+<phpunit bootstrap="vendor/autoload.php"
+         verbose="true"
+         stopOnFailure="false">
+<testsuites>
+    <testsuite name="unitTest">
+        <directory suffix=".php">test/</directory>
+    </testsuite>
+</testsuites>
+<filter>
+    <whitelist processUncoveredFilesFromWhitelist="true">
+        <directory suffix=".php">src</directory>
+        <exclude>
+            <directory suffix=".php">/vendor</directory>
+            <directory suffix=".php">/test</directory>
+        </exclude>
+    </whitelist>
+</filter>
+<logging>
+    <log type="testdox-html" target="test/testdox.html"/>
+    <!--<log type="testdox-text" target="test/testdox.txt"/>-->
+</logging>
+
+</phpunit>

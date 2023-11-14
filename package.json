@@ -1,0 +1,42 @@
+{
+  "name": "@richard-chrenek/barebones",
+  "version": "1.0.0",
+  "description": "Barebones framework provides basic MVC functionality for legacy websites and projects with PHP >=5.6",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@symfony/webpack-encore": "^2.1.0",
+    "autoprefixer": "^10.4.7",
+    "compression-webpack-plugin": "^10.0.0",
+    "postcss-loader": "^6.0.0",
+    "postcss-preset-env": "^7.7.1",
+    "stylus": "^0.58.1",
+    "stylus-loader": "^6.0.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "dev": "encore dev",
+    "watch": "encore dev --watch --progress",
+    "build": "encore production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardchrenek/barebones.git"
+  },
+  "keywords": [
+    "barebones",
+    "mvc",
+    "framework"
+  ],
+  "author": "Richard Chrenek",
+  "license": "CC-BY-SA-4.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/richardchrenek/barebones/issues"
+  },
+  "homepage": "https://github.com/richardchrenek/barebones#readme"
+}

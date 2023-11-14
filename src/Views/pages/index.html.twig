@@ -1,0 +1,62 @@
+{% extends 'layouts/base.html.twig' %}
+    {% block main_content %}
+        <main class="container">
+            <p>PHP framework with basic MVC functionality for legacy servers and projects with simple business
+                logic.</p>
+
+            <h2>Requirements</h2>
+            <ul>
+                <li>PHP version 5.6.36 (or newer)</li>
+                <li>Composer 1 (Using Composer 2 will cause a syntax error in the autoload file for PHP 5.6)</li>
+                <li>Enabled PHP extensions:
+                    <ul>
+                        <li><code>ext-json</code> (for proper JSON encoding/decoding)</li>
+                        <li><code>ext-simplexml</code> (for parsing data from/to XML)</li>
+                        <li><code>ext-pdo</code> (for handling database connection)</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>License</h2>
+            <p>This work is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+                                              target="_blank" rel="license noopener noreferrer"
+                                              style="display:inline-block;">CC BY-SA 4.0<img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+            <p>This license requires that reusers give credit to the creator. It allows reusers to distribute, remix,
+                adapt, and build upon the material in any medium or format, even for commercial purposes. If others
+                remix, adapt, or build upon the material, they must license the modified material under identical
+                terms.</p>
+
+            <h3>Legacy</h3>
+
+            <p>Barebones started in 2019 as a "needed foundation" for one of my first PHP projects - a simple
+                guestbook.</p>
+
+            <p>Although I was already familiar with Symfony 4 at that time, due to limitations of the server, which did
+                not
+                meet the requirements for running Symfony, I was "forced" to write the app along with the framework from
+                scratch.</p>
+
+            <p>When the app was up and running, I decided to strip the whole code to the "bare bones", therefore
+                creating a separate
+                project containing only the framework.</p>
+
+            <p><strong>I am aware that this framework is far from perfect.</strong> Nonetheless, during its development,
+                it gave me a lot of experience
+                and knowledge which I later built upon, and <strong>I will be more than happy if it helps anyone to
+                    accomplish their goal as well</strong> :)</p>
+
+            <h3>Sources</h3>
+            <ul>
+                <li>SVG icons used across the framework provided by SVG Repo: <a
+                            href="https://www.svgrepo.com/collection/halloween-26/" target="_blank">Halloween
+                        Collection</a></li>
+            </ul>
+
+        </main>
+    {% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'layouts/base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ getLinks('error') }}
+{% endblock %}
+
+
+{% block title %}
+    {% trans %}Fatal Error!{% endtrans %} | {{ constant('Barebones\\App\\Config::APP_NAME') }}
+{% endblock %}
+
+{% block main_content %}
+    {% apply spaceless %}
+        <div class="message-container">
+            <div class="message">
+                <div class="icon">
+                    <img class="ghost" src="/images/{{ ExceptionHelper.errorIcon(error) }}.svg" width="100"
+                         alt="{{ 'Error'|trans }} {{ error.code|default('') }}">
+                </div>
+
+                <div>
+                    <div>
+                        <h1>{{ heading }}</h1>
+                        <span>{{ description }}</span>
+                    </div>
+
+                    {% if error is defined and error is not null %}
+                        {% import 'macros/collapsible.html.twig' as collapsible %}
+
+                        <div class="debug-info">
+                            {% if error.getMessage is not empty %}
+                               {{ collapsible.section('Error message'|trans, error.message, 'error-message') }}
+                            {% endif %}
+
+                            {% set message ='' %}
+
+                            <div class="error-trace">
+                                {{ collapsible.section('Error trace'|trans, ExceptionHelper.traceToHtml(error), 'error-trace') }}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endapply %}
+{% endblock %}
+
+{% block body_bottom_scripts %}
+    {{ parent() }}
+    {{ getScripts('error') }}
+{% endblock %}
