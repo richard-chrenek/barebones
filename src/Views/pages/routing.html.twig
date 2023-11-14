@@ -3,7 +3,7 @@
         <main class="container">
             <ul>
                 <li><a href="{{ getUrl('index') }}">{% trans %}Main page{% endtrans %}</a></li>
-                <li><a href="{{ getUrl('handyman') }}">{% trans %}URL without params{% endtrans %}</a></li>
+                <li><a href="{{ getUrl('json_demo') }}">{% trans %}URL without params{% endtrans %}</a></li>
                 <li>
                     <a href="{{ getUrl('exception_demo', {statusCode: 422, nonexistent: true}) }}">{% trans %}URL with correct and one non-existent (ignored) param{% endtrans %}</a>
                 </li>

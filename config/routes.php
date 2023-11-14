@@ -37,14 +37,14 @@ const ROUTES = [
     ],
     
     '/api/json' => [
-        'name' => 'handyman',
+        'name' => 'json_demo',
         'namespace' => '\\Barebones\\Api\\',
         'controller' => 'api',
         'action' => 'jsonDemo',
     ],
 
     '/api/xml' => [
-        'name' => 'handyman',
+        'name' => 'xml_demo',
         'namespace' => '\\Barebones\\Api\\',
         'controller' => 'api',
         'action' => 'xmlDemo',
